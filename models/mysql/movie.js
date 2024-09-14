@@ -1,9 +1,11 @@
 import mysql from 'mysql2/promise'
 
+const PORT = process.env.PORT ?? 3306 
+
 const config = {
     host: 'localhost',
     user: 'root',
-    port: '3306',
+    port: PORT,
     password: '',
     database: 'moviesdb'
 }
