@@ -27,5 +27,5 @@ PATCH http://localhost:3000/movies/79a71cb2-6c60-11ef-9d0d-107d1a0c30ad
 Content-Type: application/json
 
 {
-  "year": 2024
+  "year": 2022
 }
